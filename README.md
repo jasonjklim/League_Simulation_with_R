@@ -13,11 +13,10 @@ This is one of my homework from STA 9750 Class.
 - A numeric vector with n rounded values that come from a normal with
 expectation = mean and standard deviation = sd.
 In this exercise, we will simulate the outcomes of a basketball league. There are 8 teams in total. Each team has an “attack factor” (A), “defense factor” (D), “home advantage factor” (H), and a “regularity” (R) factor. You can find a table with the teams and their factors below.
-     Team A
-D H R
-7 3 0.5 8 3 0.25 6 4 0.3 6 3 0.25 6 3 0.2 9 5 0.35 6 3 0.2 7 4 0.25
-          Jersey Lions Westchester Cats Long Island Tigers Staten Island Dogs The Bronx Foxes Queens Bears Manhattan Ducks Brooklyn Rats
-7 6 7 8 9 6 7 8
+   
+   
+                                                                           
+                                                                           
                                                                            Consider 2 teams, named team 1 and team 2. Let A1, D1, H1, and R1 be the attack, defense, home advantage, and regularity factors for team 1, and let A2, D2, H2, and R2 be the attack, defense, home advantage and regularity factor for team 2. When team 1 plays home against team 2, the point spread “home team - away team” follows a rounded normal distribution (see part 1) with expectation (0.6*A1+0.4*D1)-(0.4*A2+0.6*D2)+H1 and standard deviation 1/R1+1/R2.
 
  2) Create a function that simulates the outcome of a game: winner, loser, and point spread. If a simulated point spread comes out to be a draw, simulate again until you get a winner and a loser.
